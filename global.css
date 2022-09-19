@@ -5,12 +5,23 @@
 
   --color-yellow-400: #febe01;
   --color-yellow-800: #332200;
+
+  --color-orange: orange;
+
+  --color-white: white;
 }
 html {
   box-sizing: border-box;
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
   background-color: var(--color-gray-800);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
 }
 
 *,
@@ -47,4 +58,7 @@ img {
 .container {
   max-width: 1280px;
   width: 100%;
+}
+.text-orange {
+  color: var(--color-orange);
 }
